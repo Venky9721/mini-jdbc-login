@@ -7,11 +7,6 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class LoginApp {
-
-    static final String URL = "jdbc:mysql://localhost:3306/mini_jdbc";
-    static final String USER = "root";
-    static final String PASS = "venky@sql"; 
-
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
